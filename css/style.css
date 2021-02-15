@@ -1,0 +1,197 @@
+.hero{
+    background-image: url(../image/IMG_20200916_102806_990.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+#hero-text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+    padding: 12px;
+}
+
+.about {
+    height: 55vh;
+}
+
+#about{
+    text-align: center;
+}
+
+.motorist {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.horizon {
+    width: 10%;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 6px;
+}
+
+.link {
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.content {
+    height: 130vh;
+}
+
+.form {
+    transform: translateY(20%);
+}
+
+#serv2{
+    margin-left: 200px;
+}
+
+.right{
+    margin-top: 20px;
+    border: none;
+    background: rgb(236, 233, 233);
+    border-radius: 12px;
+}
+
+#right {
+    margin-left: 12px;
+}
+
+#left {
+    margin-right: 12px;
+}
+
+.heading {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container .row .right p {
+    text-align: justify;
+}
+
+.container .row #middle p {
+    text-align: justify;
+}
+
+.btn {
+    padding: 12px;
+    background: black;
+    border: none;
+    color: white;
+}
+
+.height {
+    height: 80vh;
+    }
+
+#middle {
+    border: none;
+    /* background: rgb(236, 233, 233); */
+    border-radius: 8px;
+}
+/* 
+.body{
+    background: url(../image/sam.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 650px;;
+} */
+
+.errorMsg {
+    cursor: context-menu;
+    /* width: 33.3%;
+    top: -12px;
+    margin: 0 auto; */
+}
+
+#block {
+    font-size: 2em;
+    text-align: center;
+}
+
+.footer {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.footer div {
+    grid-template-areas: 
+    'one'
+    'two';
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+#header-2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about-foot {
+    font: 900;
+    font-size: 3em;
+    text-transform: capitalize;
+    color: white;
+}
+
+.logo {
+    font-size: 3em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.5em;
+}
+
+#about {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 12px;
+    text-align: center;
+    height: 80vh;
+    margin-top: 22px;
+}
+
+.social-icon ul {
+    list-style: none;
+}
+
+.about-footer ul {
+    list-style: none;
+}
+
+.question {
+    background: rgb(238, 236, 236);
+    margin: 15px;
+    padding: 22px;
+    border-radius: 10px;
+}
+
+.answer {
+    display: grid;
+    grid-template-areas: 
+    'h3'
+    'p'
+    'div .image';
+}
