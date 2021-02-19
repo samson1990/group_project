@@ -38,7 +38,7 @@
                 $authID = $row['author_id'];
     ?>
     <div class="container">
-        <form action="home.php" method="post" class="form-horizontal">
+        <form action="homegit.php" method="post" class="form-horizontal">
             <div class="form-group">
                 <h1><?=$body?></h1>
             </div>
