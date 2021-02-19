@@ -1,12 +1,11 @@
 <?php
   
+    
     include("includes/db_connection.php");
     include("includes/functions.php");
-
     $successMessage = "";
     
     include("includes/header.php");
-
 ?>
 
 	

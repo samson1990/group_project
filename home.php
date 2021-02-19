@@ -1,4 +1,4 @@
-<?php include ("./includes/header.php");  $page = 'que';?>
+<?php include ("./includes/header.php"); ?>
 
 <?php
     include("./includes/db_connection.php");
